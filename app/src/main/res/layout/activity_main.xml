@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="#00f"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Preencha o seu username e password"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: "/>
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password: "/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar" />
+
+    <Button
+        android:id="@+id/button_menu_restaurante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Restaurante" />
+
+    <Button
+        android:id="@+id/button_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List View" />
+
+    <Button
+        android:id="@+id/button_google_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Maps" />
+
+    <Button
+        android:id="@+id/button_shared_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SharedPreferences" />
+
+    <Button
+        android:id="@+id/button_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Audio" />
+
+    <Button
+        android:id="@+id/button_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fullscreen" />
+    <Button
+        android:id="@+id/button_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView" />
+
+    <Button
+        android:id="@+id/button_bancodados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banco de Dados" />
+
+    <Button
+        android:id="@+id/button_bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom Navigation" />
+</LinearLayout>
